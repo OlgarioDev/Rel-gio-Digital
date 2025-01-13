@@ -1,0 +1,65 @@
+:root{
+
+
+        --section-1-color: 
+        --white: #fff;
+        --bisque: #976549;
+        --red: #ef0c0c;
+        --blue: #02005f;
+        --section-2-color: radial-gradient(circle,  #ff000f, #011);
+        --section-3-color: linear-gradient(190deg, #011201, #ff000f, #02005f );
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: var(--section-3-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: rgba(0, 0, 0, .7);
+    border-radius: 7px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    
+}
+
+#horas, #minutos, #segundos{
+    font-size: 70px;
+}
+.tempo{
+    font-size: 25px;
+    
+}
+
